@@ -1,0 +1,33 @@
+{
+  "name": "bec-beecrowd",
+  "version": "1.0.3",
+  "type": "module",
+  "description": "",
+  "main": "bin/bec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bec": "bin/bec.js"
+  },
+  "files": [
+    "bin/",
+    "commands/",
+    "utils/",
+    "templates/"
+  ],
+  "keywords": [
+    "javascript",
+    "cli",
+    "bin",
+    "beecrowd",
+    "file-generator",
+    "nodejs",
+    "esm"
+  ],
+  "author": "Antonio Mauricio",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
