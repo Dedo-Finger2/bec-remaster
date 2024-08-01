@@ -34,6 +34,9 @@ bec --generate-test --name <challenge_name>
 bec --gt -n <challenge_name>
 ```
 
+Replace `<challenge_name>` with the same name used for your challenge file. This will create a new file named `<challenge_name>.test.js` inside a `tests` folder.
+
+
 **Generating a Challenge File With it's Test File:**
 
 ```bash
@@ -41,8 +44,6 @@ bec --generate-challenge --name <challenge_name> --test
 # or
 bec --gc -n <challenge_name> -t
 ```
-
-Replace `<challenge_name>` with the same name used for your challenge file. This will create a new file named `<challenge_name>.test.js` inside a `tests` folder.
 
 ### Variables
 
