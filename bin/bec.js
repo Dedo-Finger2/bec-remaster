@@ -19,4 +19,6 @@ if (generateChallengeAndTestFileCommand && name) {
   await GenerateChallengeFile(args);
 } else if (generateTestFileCommand && name) {
   await GenerateTestFile(args);
+} else {
+  console.log("Invalid command...");
 }
