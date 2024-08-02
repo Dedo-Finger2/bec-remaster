@@ -10,9 +10,46 @@ This CLI tool helps you quickly create new Beecrowd challenges with correspondin
 
 ### Installation
 
-**Coming Soon!**
+```bash
+npm install bec-beecrowd-generator
+```
 
-Bec is currently under development. I'll provide installation instructions when it's ready for public use.
+- Create your first challenge:
+
+```bash
+npx bec --generate-challenge --name 1000 --test
+```
+
+### Test and Challenge structure
+
+```js
+/**
+ * @param { Array<string> } lines - Variable with all data provided in order
+ * @returns { string }
+ */
+export function <% fileName %>(lines) {
+  // Your code goes here...
+
+  const message = ``;
+  console.log(message);
+  return message;
+}
+```
+
+```js
+import { <% fileName %> } from "./../challenges/<% fileName %>.challenge.js";
+
+describe("Default - ...", () => {
+  it.each([])(
+    "...",
+    () => {
+      const result = <% fileName %>([]);
+
+      expect(result).toBe(`...`);
+    },
+  );
+});
+```
 
 ### Usage
 
