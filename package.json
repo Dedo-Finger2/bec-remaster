@@ -1,6 +1,6 @@
 {
   "name": "bec-beecrowd-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "",
   "main": "bin/bec.js",
