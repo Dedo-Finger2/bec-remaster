@@ -1,14 +1,26 @@
 ## Bec - Beecrowd Challenge JS Generator
 
-This CLI tool helps you quickly create new Beecrowd challenges with corresponding test files write in Jest!
+![](https://github.com/Dedo-Finger2/bec-remaster/blob/master/public/cover.png?raw=true)
 
-### Features
+<p align="center">
+  <img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" />
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+  <br />
+  <strong> 🚀 A CLI tool to quickly create new Beecrowd challenges with corresponding test files writen in Jest! 🚀 </strong>
+</p>
+
+---
+
+### ✨ Features
 
 * Generates a new JavaScript file with choosen challenge name.
 * Creates a separate test file to write unit tests for your challenge solution before submiting it.
 * Offers convenient aliases for commonly used commands.
 
-### Installation
+---
+
+### ⬇️ Installation
 
 ```bash
 npm install bec-beecrowd-generator
@@ -20,7 +32,9 @@ npm install bec-beecrowd-generator
 npx bec --generate-challenge --name 1000 --test
 ```
 
-### Test and Challenge structure
+---
+
+### 📝 Test and Challenge structure
 
 ```js
 /**
@@ -51,7 +65,9 @@ describe("Default - ...", () => {
 });
 ```
 
-### Usage
+---
+
+### ⚙️ Usage
 
 **Generating a Challenge File:**
 
@@ -84,7 +100,17 @@ bec --generate-challenge --name <challenge_name> --test
 bec --gc -n <challenge_name> -t
 ```
 
-### Variables
+---
+
+### 🤓 Variables
 
 * `--name {NAME}` (`-n {NAME}`): Specifies the name for your challenge and test files.
 * `--test` (`-t`): (Optional) Flag to only generate a test file along-side with the challenge file.
+
+---
+
+### 📱 Contact me
+
+- LinkedIn: https://www.linkedin.com/in/antonio-mauricio-4645832b3/
+- Instagram: https://www.instagram.com/antonioalmeida2003/
+- Email: antonioimportant@gmail.com
