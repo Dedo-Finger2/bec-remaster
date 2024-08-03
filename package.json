@@ -1,14 +1,12 @@
 {
   "name": "bec-beecrowd-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
-  "description": "",
-  "main": "bin/bec.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "An CLI tool that helps you write and do codding challenges from Beecrowd website.",
+  "main": "./bin/bec.js",
+  "scripts": {},
   "bin": {
-    "bec": "bin/bec.js"
+    "bec": "./bin/bec.js"
   },
   "files": [
     "bin/",
@@ -23,7 +21,9 @@
     "beecrowd",
     "file-generator",
     "nodejs",
-    "esm"
+    "esm",
+    "solo-developer",
+    "pnpm"
   ],
   "author": "Antonio Mauricio",
   "license": "MIT",
